@@ -4,29 +4,29 @@ The results are obtained
 
 Case Threads number = 1
     Synchronised solution           Locker                 SpeedUp
-    0m19.112s                       0m20.314s
+    0m19.112s                       0m20.314s              0.94082898493
     
 ------------------------------------------------------------------------------    
 Case Threads number = 2
     Synchronised solution           Locker                 SpeedUp
-                                    0m15.699s    
+    0m15.450s                       0m15.699s              0.98413911714    
     
 ------------------------------------------------------------------------------    
 Case Threads number = 4
     Synchronised solution           Locker                 SpeedUp
-                                    0m15.622s
+    0m15.758s                       0m15.622s              1.00870567149
 
 ------------------------------------------------------------------------------
 Case Threads number = 8
     Synchronised solution           Locker                 SpeedUp 
-                                    0m20.092s                     
+    0m19.696s                       0m20.092s              0.98029066295       
     
 ------------------------------------------------------------------------------    
 Case Threads number = 16
     Synchronised solution           Locker                 SpeedUp
-                                    0m20.935s
+    0m20.592s                       0m20.935s              20.592/20.935
     
 ------------------------------------------------------------------------------    
 Case Threads number = 32
     Synchronised solution           Locker                 SpeedUp
-                                    0m21.801s
+    0m20.872s                       0m21.801s              0.95738727581
