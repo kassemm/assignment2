@@ -5,8 +5,14 @@ import java.util.Arrays;
 class Bakery implements Lock{
 	
 	/*Without using volatile the next thread is not able to enter the  CS 
-	Because it is not be able to read the update value of the flag or the label so it keeps waiting according to 
-	the old values.*/
+	Because it is not be able to read the updated value of the flag or the label shared variables 
+	from the its own local thread memory making it not able to read the updated values of these shared variables from the other threads 
+	so it keeps waiting and can not enter its critical section
+	--
+	The solution is to use the volatile for the shared variables so that any values read or written to these 
+	shared variable will be from the main memory so that always the updated values is used. 
+	
+	*/
 	
 	volatile boolean  ready ;				
 	volatile boolean     []     flag ;  
