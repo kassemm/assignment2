@@ -1,0 +1,32 @@
+In case of using lockers instead of synchronized and using primes size less than 10_000_000
+
+The results are obtained
+
+Case Threads number = 1
+    Synchronised solution           Locker                 SpeedUp
+    0m19.112s                       0m20.314s
+    
+------------------------------------------------------------------------------    
+Case Threads number = 2
+    Synchronised solution           Locker                 SpeedUp
+                                    0m15.699s    
+    
+------------------------------------------------------------------------------    
+Case Threads number = 4
+    Synchronised solution           Locker                 SpeedUp
+                                    0m15.622s
+
+------------------------------------------------------------------------------
+Case Threads number = 8
+    Synchronised solution           Locker                 SpeedUp 
+                                    0m20.092s                     
+    
+------------------------------------------------------------------------------    
+Case Threads number = 16
+    Synchronised solution           Locker                 SpeedUp
+                                    0m20.935s
+    
+------------------------------------------------------------------------------    
+Case Threads number = 32
+    Synchronised solution           Locker                 SpeedUp
+                                    0m21.801s
